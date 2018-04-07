@@ -1,0 +1,3 @@
+rm a.out
+gcc demo.c solver.c -framework GLUT -framework OpenGL -Wno-deprecated
+./a.out
